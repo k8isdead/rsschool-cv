@@ -17,7 +17,7 @@
 
 * R&D Chemist at MEL Science Ltd. (Aug 2020 – Sept 2021)
 
-MEL Science is a growing company focused on bringing the best scientific education possible via science experiment sets in Chemistry, Physics, and Medicine. 
+MEL Science is a developing company focused on bringing the best scientific education possible via science experiment sets in Chemistry, Physics, and Medicine. 
 
 Responsibilities:
 
