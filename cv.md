@@ -62,9 +62,6 @@ function abbrevName(name){
     const first = name.split(" ")[0].split("")[0].toUpperCase();
     const last = name.split(" ")[1].split("")[0].toUpperCase();
     return(`${first}.${last}`)
-
-    // code away
-
 }
 ```
 ## SKILLS
