@@ -9,19 +9,11 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
+        <main class="main">
 			<div class="column">
 				<figure class="header-photo">
 					<img src="img/photo.jpg" class="header-img" alt="a photo of me">
 				</figure>
-			</div>
-			<div class="main-column">
-				<h1 class="header-title">Ekaterina Martynko</h1>
-				<h3 class="header-subtitle">Junior Web-developer</h3>
-			</div>
-		</header>
-        <main class='main'>
-            <div class='column'>
                 <section class='document-section contacts'>
                     <h2 class="column-title">Contacts</h2>
                     <ul>
@@ -61,8 +53,10 @@
                         <li class="list-item">Knitting</li>
 					</ul>
                 </section>
-            </div>
+			</div>
             <div class='main-column'>
+                <h1 class="header-title">Ekaterina Martynko</h1>
+				<h3 class="header-subtitle">Junior Web-developer</h3>
                 <section class="document-section about">
                     <h2 class="document-title">About me</h2>
                     <p>Hi! I am a Junior Frontend Developer. I would like to build a career in frontend development and UX design. 
@@ -140,7 +134,7 @@
                 </section>
                 <section class='document-section video'>
                     <h2 class="document-title">Video Introduction</h2>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UNLo41BIKOc" 
+                    <iframe width="500" height="315" src="https://www.youtube.com/embed/UNLo41BIKOc" 
                     title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
                     picture-in-picture" allowfullscreen></iframe>
                 </section>
@@ -148,46 +142,46 @@
                     <h2 class="document-title">Code Examples</h2>
                         <div class="codeblock">
                             <h3 class="code-title">JS Abbreviate a Two Word Name (8 kyu)</h3>
-                            <pre><code>
-                            function abbrevName(name){
-                                const first = name.split(" ")[0].split("")[0].toUpperCase();
-                                const last = name.split(" ")[1].split("")[0].toUpperCase();
-                                return(`${first}.${last}`)
-                            }
+                            <pre><code class="code">
+    function abbrevName(name){
+        const first = name.split(" ")[0].split("")[0].toUpperCase();
+        const last = name.split(" ")[1].split("")[0].toUpperCase();
+        return(`${first}.${last}`)
+    }
                             </code></pre>
                         </div>
                         <div class="codeblock">
                             <h3 class="code-title">Python Snail (4 kyu)</h3>
-                            <pre><code>
-                            def snail(snail_map):
-                            z = 0
-                            result = []
+                            <pre><code class='code'>
+    def snail(snail_map):
+    z = 0
+    result = []
+    
+    if snail_map and snail_map[0]: 
+        z = len(snail_map)
+    for n in range((z + 1) // 2):
+        
+        # go right
+        for i in range(n, z - n): 
+            result.append(snail_map[n][i])
+        # go down 
+        for i in range(n + 1, z - n): 
+            result.append(snail_map[i][-1 -n])                     
+        # go left     
+        for i in range(n + 2, z - n + 1): 
+            result.append(snail_map[-1 -n][-i])                                  
+        # go up 
+        for i in range(n + 2, z - n): 
+            result.append(snail_map[-i][n])
                             
-                            if snail_map and snail_map[0]: 
-                                z = len(snail_map)
-                            for n in range((z + 1) // 2):
-                                
-                                # go right
-                                for i in range(n, z - n): 
-                                    result.append(snail_map[n][i])
-                                # go down 
-                                for i in range(n + 1, z - n): 
-                                    result.append(snail_map[i][-1 -n])                     
-                                # go left     
-                                for i in range(n + 2, z - n + 1): 
-                                    result.append(snail_map[-1 -n][-i])                                  
-                                # go up 
-                                for i in range(n + 2, z - n): 
-                                    result.append(snail_map[-i][n])
-                                                  
-                            return result
+    return result
                             </code></pre>
                         </div>
                 </section>
             </div>
         </main>
         <footer class="footer">
-            <div class='footer-inside'>
+            <div class="footer-inside">
                 <div class="footer-item">
                     <a href="https://github.com/k8isdead" target="_blank" class="footer-github"></a>
                 </div>
