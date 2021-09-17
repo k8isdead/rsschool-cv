@@ -8,7 +8,7 @@
 
 ### e-mail: ekaterina.martynko@gmail.com
 
-## GOALS
+## ABOUT ME
 
 - I would like to build a career in frontend development and UX design
 - I am looking for a paid internship or a junior frontend developer position
