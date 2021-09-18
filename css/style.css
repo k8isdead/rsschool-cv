@@ -151,7 +151,7 @@ body {
 }
 
 .contact-link {
-    padding: 0 0 20px -5px;
+    padding: 0 0 20px 5px;
     color: black;
 }
 .contact-link:hover{
