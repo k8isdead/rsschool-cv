@@ -56,6 +56,24 @@ body {
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+
+.column-img-link{
+    background-image: url(../img/cv.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.project {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
 .document-title {
     padding-bottom: 10px;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
