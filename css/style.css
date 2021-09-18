@@ -12,6 +12,8 @@ ul {
 body {
 	width: 100%;
 }
+
+
 .main {
     display: flex;
 }
@@ -52,6 +54,24 @@ body {
     padding-left: 20px;
     padding-bottom: 10px;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+.column-img-link{
+    background-image: url(../img/cv.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.project {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 30px;
 }
 
 .document-title {
@@ -195,6 +215,7 @@ body {
 .code {
     padding: 0;
     margin:0;
+    font-size:small;
 }
 
 .work-header {
@@ -234,6 +255,17 @@ body {
     height: 20px;
     margin-right: 10px;
 }
+
+
+@media (max-width: 300px) {
+    .wrapper {
+      padding: 0;
+    }
+  
+    section {
+      padding: 0;
+    }
+  }
 
 @media (min-width: 40rem) {
     main {

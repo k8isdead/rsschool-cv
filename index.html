@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="img/favicon.ico" sizes="any"><!-- 32×32 -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <title>Ekaterina Martynko CV</title>
 </head>
 <body>
     <div class="wrapper">
+        
         <main class="main">
 			<div class="side-column">
 				<figure class="header-photo">
@@ -24,6 +28,20 @@
                         <li class="list-item"><a href="mailto:ekaterina.martynko@gmail.com" class="contact-link">ekaterina.martynko@gmail.com</a></li>
                     </ul>
                 </section>
+                
+                <section class="document-section">
+                    <h2 class="column-title">Projects</h2>
+                    <div class="column-item">
+                        <a href="https://k8isdead.github.io/rsschool-cv/" target="_blank" class="column-img-link"></a>
+                    </div>
+                    <div class='project'>
+                        My first project: a CV
+                        <ul>
+                            <li class="list-item">HTML5</li>
+                            <li class="list-item">CSS3</li>
+                        </ul>
+                    </div>
+                </section>
                 <section class="document-section">
                     <h2 class="column-title">Education</h2>
                     <ul class="education-list">
@@ -35,7 +53,8 @@
                         <li class='education-list-item degree'>B.S. Chemistry</li>
                     </ul>
                 </section>
-                <section class="document-section languages">
+                
+                <section class="document-section">
 					<h2 class="column-title">Foreign languages</h2>
 					<ul class="languages-list">
 						<li class="list-item">Russian - native</li>
@@ -45,7 +64,7 @@
                         <li class="list-item">Greek - A2</li>
 					</ul>
 				</section>
-                <section class="document-section hobbies">
+                <section class="document-section">
                     <h2 class="column-title">Hobbies</h2>
                     <ul class="hobbies-list">
 						<li class="list-item">Foreign Languages</li>
@@ -143,7 +162,7 @@
                     <h2 class="document-title">Code Examples</h2>
                         <div class="codeblock">
                             <h3 class="code-title">JS Abbreviate a Two Word Name (8 kyu)</h3>
-                            <pre><code class="code">
+                            <pre><code class="javascript code">
     function abbrevName(name){
         const first = name.split(" ")[0].split("")[0].toUpperCase();
         const last = name.split(" ")[1].split("")[0].toUpperCase();
@@ -153,7 +172,7 @@
                         </div>
                         <div class="codeblock">
                             <h3 class="code-title">Python Snail (4 kyu)</h3>
-                            <pre><code class='code'>
+                            <pre><code class='python code'>
     def snail(snail_map):
     z = 0
     result = []
