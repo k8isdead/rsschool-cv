@@ -98,6 +98,17 @@ body {
     line-height: 1.5;
 }
 
+.education-list {
+    padding-left: 30px;
+}
+
+.education-list-item {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
 .header {
     width: 100%;
     display: flex;
@@ -125,7 +136,6 @@ body {
     border-radius: 50%;
     border: 15px solid #FFCD00	;
 }
-
 
 .main-title {
     font-size: 40px;
